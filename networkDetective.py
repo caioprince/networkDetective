@@ -108,7 +108,7 @@ def arg_options():
         ["-v, --verbose", "Display detailed messages"]
     ]
 
-    usage_text = f"Usage: python main.py [OPTION] [ARGUMENT]\n\nOptions and Arguments:\n{tabulate(options_table, tablefmt='grid')}\n\nExamples:\n\n- Check active IPs on a network:\n  python main.py -s 192.168.1.0\n\n- Check open ports on an IP:\n  python main.py -ps 192.168.1.1\n\n- Check the banner on a specific port:\n  python main.py -b 192.168.1.1 80"
+    usage_text = f"Usage: python networkDetective.py [OPTION] [ARGUMENT]\n\nOptions and Arguments:\n{tabulate(options_table, tablefmt='grid')}\n\nExamples:\n\n- Check active IPs on a network:\n  python networkDetective.py -s 192.168.1.0\n\n- Check open ports on an IP:\n  python networkDetective.py -ps 192.168.1.1\n\n- Check the banner on a specific port:\n  python networkDetective.py -b 192.168.1.1 80"
 
     print(usage_text)
 
